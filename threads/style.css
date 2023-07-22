@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  background-color: #101010;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 110%;
+}
+
+aside {
+  height: 100vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  padding: 3rem 8.4rem 3.2rem 2.4rem;
+  border-right: 0.8px solid rgba(255, 255, 255, 0.10);
+}
+
+#logo {
+  cursor: pointer;
+  transition: .5s;
+}
+
+#logo:hover {
+  transform: scale(1.1);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  cursor: pointer;
+  transition: .9s all ease-in-out;
+  padding: 1rem;
+}
+
+li:hover, .more:hover {
+  background-color: black;
+  border-radius: 1.5rem;
+}
+
+.menu {
+  display:flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.2rem;
+  cursor: pointer;
+  padding: 1rem;
+  transition: .9s all ease-in-out;
+}

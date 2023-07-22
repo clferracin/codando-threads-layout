@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Threads</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <aside>
+    <div class="menu">
+      <picture id="logo">
+        <img src="./assets/logo.svg" alt="Threads">
+      </picture>
+      <ul>
+        <li>
+          <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.20653 11.9606C2.07556 12.0712 2 12.2339 2 12.4054V22.1085C2 22.43 2.2606 22.6906 2.58207 22.6906H9V18.6907C9 17.0338 10.3431 15.6907 12 15.6907C13.6569 15.6907 15 17.0338 15 18.6907V22.6906H21.4179C21.7394 22.6906 22 22.43 22 22.1085V12.4054C22 12.2339 21.9244 12.0712 21.7935 11.9606L12.3755 4.00771C12.1587 3.82458 11.8413 3.82458 11.6245 4.00771L2.20653 11.9606Z" fill="white"/>
+          </svg>
+          <span>Home</span>
+        </li>
+        <li><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M3.99135 11.8464C3.99135 7.9888 7.11859 4.86156 10.9762 4.86156C14.8339 4.86156 17.9611 7.9888 17.9611 11.8464C17.9611 15.7041 14.8339 18.8313 10.9762 18.8313C7.11859 18.8313 3.99135 15.7041 3.99135 11.8464ZM10.9762 2.86588C6.0164 2.86588 1.99567 6.88661 1.99567 11.8464C1.99567 16.8063 6.0164 20.827 10.9762 20.827C13.3579 20.827 15.5231 19.8999 17.1305 18.3868C17.1664 18.4406 17.2081 18.4916 17.2555 18.5391L21.2469 22.5304C21.6366 22.9201 22.2684 22.9201 22.6581 22.5304C23.0477 22.1407 23.0477 21.509 22.6581 21.1193L18.6667 17.1279C18.5816 17.0428 18.4849 16.9762 18.3817 16.9283C19.3753 15.4832 19.9568 13.7327 19.9568 11.8464C19.9568 6.88661 15.9361 2.86588 10.9762 2.86588Z" fill="white"/>
+          </svg>
+          <span>Pesquisar</span>
+          </li>
+        <li><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M7.98269 2.86594C4.67615 2.86594 1.99567 5.54642 1.99567 8.85296V16.8357C1.99567 20.1422 4.67615 22.8227 7.98269 22.8227H15.9654C19.2719 22.8227 21.9524 20.1422 21.9524 16.8357V8.85296C21.9524 5.54642 19.2719 2.86594 15.9654 2.86594H7.98269ZM3.99134 8.85296C3.99134 6.6486 5.77833 4.86161 7.98269 4.86161H15.9654C18.1697 4.86161 19.9567 6.6486 19.9567 8.85296V16.8357C19.9567 19.04 18.1697 20.827 15.9654 20.827H7.98269C5.77833 20.827 3.99134 19.04 3.99134 16.8357V8.85296ZM12.9719 8.85296C12.9719 8.30187 12.5251 7.85512 11.974 7.85512C11.4229 7.85512 10.9762 8.30187 10.9762 8.85296V11.8465H7.98269C7.4316 11.8465 6.98485 12.2932 6.98485 12.8443C6.98485 13.3954 7.4316 13.8421 7.98269 13.8421H10.9762V16.8357C10.9762 17.3867 11.4229 17.8335 11.974 17.8335C12.5251 17.8335 12.9719 17.3867 12.9719 16.8357V13.8421H15.9654C16.5165 13.8421 16.9632 13.3954 16.9632 12.8443C16.9632 12.2932 16.5165 11.8465 15.9654 11.8465H12.9719V8.85296Z" fill="white"/>
+          </svg>
+          <span>Criar</span>
+        </li>
+        <li><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.57671 13.7833L11.243 22.0358C11.6378 22.4607 12.3104 22.4607 12.7051 22.0358L20.3714 13.7833C22.4795 11.5141 22.4795 7.83494 20.3714 5.5657C18.2634 3.29646 14.8455 3.29646 12.7375 5.5657L12.7051 5.6005C12.3104 6.02544 11.6378 6.02544 11.243 5.6005L11.2107 5.5657C9.10262 3.29646 5.68477 3.29646 3.57671 5.5657C1.46865 7.83494 1.46865 11.5141 3.57671 13.7833Z" stroke="white" stroke-width="1.99568"/>
+          </svg>
+          <span>Atividade</span>
+        </li>
+        <li>
+          <img src="./assets/rocketseat.png" alt="">
+          <span>Perfil</span>
+        </li>
+      </ul>
+    </div>
+    <div class="more">
+      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 5.87036L20 5.87036" stroke="white" stroke-width="1.49676" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M4 12.8703L20 12.8703" stroke="white" stroke-width="1.49676" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M4 19.8703L20 19.8703" stroke="white" stroke-width="1.49676" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>Mais</span>    
+    </div>
+  </aside>
+  <main>
+
+  </main>
+  <div id="profile">
+
+  </div>
+</body>
+</html>
